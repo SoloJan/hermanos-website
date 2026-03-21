@@ -28,9 +28,9 @@
 
         <!-- Desktop nav -->
         <nav class="header-nav" aria-label="Main navigation">
-          <a href="product.html" data-i18n="nav.product"></a>
-          <a href="aboutus.html" data-i18n="nav.about"></a>
-          <a href="contact.html" data-i18n="nav.contact"></a>
+          <a href="product.html" data-i18n="nav.product">Product</a>
+          <a href="aboutus.html" data-i18n="nav.about">About Us</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
 
           <!-- Language switcher -->
           <div class="lang-switcher" aria-label="Language">
@@ -40,7 +40,7 @@
           </div>
 
           <!-- CTA -->
-          <a href="https://www.hermanos.energy/" target="_blank" rel="noopener" class="btn-sign-in" data-i18n="nav.sign_in"></a>
+          <a href="https://www.hermanos.energy/" target="_blank" rel="noopener" class="btn-sign-in" data-i18n="nav.sign_in">Sign in</a>
         </nav>
 
         <!-- Hamburger (mobile) -->
@@ -55,10 +55,10 @@
 
     <!-- Mobile nav drawer -->
     <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
-      <a href="product.html" data-i18n="nav.product"></a>
-      <a href="aboutus.html" data-i18n="nav.about"></a>
-      <a href="contact.html" data-i18n="nav.contact"></a>
-      <a href="https://www.hermanos.energy/" target="_blank" rel="noopener" class="btn-sign-in" data-i18n="nav.sign_in" style="align-self:flex-start; margin-top: var(--space-2);"></a>
+      <a href="product.html" data-i18n="nav.product">Product</a>
+      <a href="aboutus.html" data-i18n="nav.about">About Us</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
+      <a href="https://www.hermanos.energy/" target="_blank" rel="noopener" class="btn-sign-in" data-i18n="nav.sign_in" style="align-self:flex-start; margin-top: var(--space-2);">Sign in</a>
 
       <div class="lang-switcher" aria-label="Language">
         <button data-lang-btn="en" onclick="I18n.switch('en')">EN</button>
@@ -79,17 +79,87 @@
     ══════════════════════════════════════════════ -->
     <section class="hero">
       <div class="hero-bg">
-        <img
-          src="assets/images/background-hero-section.avif"
-          alt=""
-          width="1920"
-          height="1080"
-        />
+        <img src="assets/images/hero-background.avif" alt="" />
       </div>
       <div class="hero-content">
-        <h1 class="hero-title" data-i18n="home.hero.title"></h1>
-        <p class="hero-subtitle" data-i18n="home.hero.subtitle"></p>
-        <a href="contact.html" class="btn-contact" data-i18n="home.hero.cta"></a>
+        <h1 class="hero-title" data-i18n="home.hero.title">Endless clean energy.</h1>
+        <p class="hero-subtitle" data-i18n="home.hero.subtitle">We are dedicated to providing cutting-edge solutions for energy storage using hydrogen technology.</p>
+        <a href="contact.html" class="btn-contact" data-i18n="home.hero.cta">Contact us</a>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════
+         INTRO — Looking to the future
+    ══════════════════════════════════════════════ -->
+    <section class="intro-future">
+      <div class="intro-row">
+
+        <div class="intro-text">
+          <h2 class="section-heading">Looking to the future.</h2>
+          <p class="section-body">Renewable energy sources like wind power, and solar are increasing rapidly but to balance the energy grid and secure a stable power supply, the world is still counting on fossil fuel as a energy source. A year-round stable power supply without fossil fuels can only be achieved with local energy storage.</p>
+        </div>
+
+        <div class="intro-photo">
+          <img src="assets/images/intro-photo-1.avif" alt="Hydrogen energy installation with solar panels" />
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════
+         INTRO — You can help
+    ══════════════════════════════════════════════ -->
+    <section class="intro-help">
+      <div class="intro-row">
+
+        <div class="intro-charts">
+          <img src="assets/images/intro-photo-2.avif" alt="Chart: Typical electricity prices" class="chart-image" />
+          <img src="assets/images/intro-photo-3.avif" alt="Chart: Solar and wind electricity on the grid" class="chart-image" />
+        </div>
+
+        <div class="intro-text">
+          <h2 class="section-heading">You can help and benefit from the energy transition.</h2>
+          <p class="section-body">On windy and sunny periods during the day the green energy supply exceeds the demand which is leading to very low prices, and sometimes even free electricity. Green energy is cheap energy! With the energy storage of Hermanos Energy you can benefit from the daily and seasonal price difference and contribute to net zero at the same time.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════
+         ONE VISION. THREE PRODUCTS.
+    ══════════════════════════════════════════════ -->
+    <section class="products">
+      <div class="products-inner">
+
+        <div class="products-heading">
+          <h2 class="section-heading section-heading--light">One vision. Three products.</h2>
+          <p class="section-body section-body--light">It is our mission to use the abundance of green energy to replace fossil fuels wherever they are used. We always produce the hydrogen locally, at your home or business, and it can be used in various ways.</p>
+        </div>
+
+        <div class="products-cards">
+
+          <div class="product-card">
+            <div class="product-card-icon">
+              <img src="assets/images/icon-power-to-heat.svg" alt="" />
+            </div>
+            <p class="product-card-text">Using your summer sun to heat in the winter, with power to heat.</p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card-icon">
+              <img src="assets/images/icon-power-to-power.svg" alt="" />
+            </div>
+            <p class="product-card-text">All year round green electricyty with power to power.</p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card-icon">
+              <img src="assets/images/icon-power-to-drive.svg" alt="" />
+            </div>
+            <p class="product-card-text">Driving a vehicle on hydrogen. With power to drive.</p>
+          </div>
+
+        </div>
       </div>
     </section>
 
@@ -109,15 +179,15 @@
 
       <!-- Nav links -->
       <nav class="footer-nav" aria-label="Footer navigation">
-        <a href="product.html" data-i18n="nav.product"></a>
-        <a href="aboutus.html" data-i18n="nav.about"></a>
-        <a href="contact.html" data-i18n="nav.contact"></a>
+        <a href="product.html" data-i18n="nav.product">Product</a>
+        <a href="aboutus.html" data-i18n="nav.about">About Us</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
       </nav>
 
-      <!-- Address + copyright — full width, right-aligned -->
+      <!-- Address + copyright -->
       <div class="footer-address">
-        <p data-i18n-html="footer.address"></p>
-        <p data-i18n="footer.copyright"></p>
+        <p data-i18n-html="footer.address">Address: Transistorstraat 151, 1322 CN Almere<br>Kvk nummer 91848946</p>
+        <p data-i18n="footer.copyright">Hermanos Energy 2025 © All rights reserved</p>
       </div>
 
     </div>
