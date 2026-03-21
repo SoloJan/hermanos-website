@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "product": "Product",
+    "about": "Over ons",
+    "contact": "Contacteer ons",
+    "sign_in": "Inloggen"
+  },
+  "footer": {
+    "address": "Adres: Transistorstraat 151, 1322 CN Almere<br>Kvk nummer 91848946",
+    "copyright": "Hermanos Energy 2025 © Alle rechten voorbehouden"
+  }
+}
