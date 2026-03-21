@@ -1,4 +1,11 @@
 {
+  "home": {
+    "hero": {
+      "title": "Endless clean energy.",
+      "subtitle": "We are dedicated to providing cutting-edge solutions for energy storage using hydrogen technology.",
+      "cta": "Contact us"
+    }
+  },
   "nav": {
     "product": "Product",
     "about": "About Us",

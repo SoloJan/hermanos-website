@@ -1,6 +1,115 @@
 /* =============================================================
    HOME PAGE
-   Section-specific styles for index.html
    ============================================================= */
 
-/* TODO: sections will be added here as home page is built */
+/* ── Hero ── */
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 200px 50px 150px;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.hero-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 680px;
+  text-align: center;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: 68px;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  line-height: 1.1em;
+  color: #f6f4ff;
+  text-align: center;
+}
+
+.hero-subtitle {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 1.4em;
+  color: #c7ffe1;
+  text-align: center;
+}
+
+.btn-contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  background-color: #ffffff;
+  color: #19154e;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1em;
+  letter-spacing: -0.3px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow:
+    rgba(0, 0, 0, 0.18) 0px 0.6px 0.6px -1.25px,
+    rgba(0, 0, 0, 0.16) 0px 2.3px 2.3px -2.5px,
+    rgba(0, 0, 0, 0.063) 0px 10px 10px -3.75px;
+  transition: filter var(--transition-fast);
+}
+
+.btn-contact:hover {
+  filter: brightness(0.97);
+}
+
+/* ── Tablet ── */
+@media (max-width: 1199px) {
+  .hero {
+    padding: 180px 50px 130px;
+  }
+
+  .hero-title {
+    font-size: 60px;
+    letter-spacing: -1px;
+  }
+
+  .hero-subtitle {
+    font-size: 20px;
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 809px) {
+  .hero {
+    padding: 150px 20px;
+  }
+
+  .hero-title {
+    font-size: 40px;
+    letter-spacing: -0.5px;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+  }
+}

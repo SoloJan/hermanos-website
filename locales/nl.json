@@ -1,4 +1,11 @@
 {
+  "home": {
+    "hero": {
+      "title": "Eindeloos schone energie.",
+      "subtitle": "Wij zijn toegewijd aan het leveren van geavanceerde oplossingen voor energieopslag met behulp van waterstoftechnologie.",
+      "cta": "Contacteer ons"
+    }
+  },
   "nav": {
     "product": "Product",
     "about": "Over ons",
