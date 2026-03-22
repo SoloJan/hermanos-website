@@ -254,6 +254,183 @@
 }
 
 
+/* =============================================================
+   EMS — Our OWN EMS
+   ============================================================= */
+
+.ems {
+  background-color: #c7ffe1;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ems-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.ems-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ems-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ems-label {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  color: #2a13a0;
+}
+
+.ems-heading {
+  font-family: var(--font-display);
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 1.3em;
+  color: var(--color-primary-dark);
+}
+
+.ems-body {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7em;
+  color: var(--color-gray);
+}
+
+.ems-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.ems-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.ems-check-icon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  fill: #2a13a0;
+}
+
+.ems-list-item span {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2em;
+  color: var(--color-primary-dark);
+}
+
+.ems-image {
+  flex: 1;
+  aspect-ratio: 1.51515;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 30px -20px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.ems-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+
+/* =============================================================
+   CTA — Get in touch
+   ============================================================= */
+
+.cta {
+  background-color: #220e87;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.cta-content {
+  flex: 1;
+  min-width: 200px;
+  max-width: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.cta-label {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.cta-heading {
+  font-family: var(--font-display);
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 1.3em;
+  color: #ffffff;
+}
+
+.cta-image {
+  flex: 1;
+  min-width: 200px;
+  aspect-ratio: 1.38484;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 30px -20px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.1) 100%);
+  overflow: hidden;
+}
+
+.cta-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+
 /* ── Tablet ── */
 @media (max-width: 1199px) {
   .hero {
@@ -270,6 +447,10 @@
   }
 
   .section-heading {
+    font-size: 40px;
+  }
+
+  .ems-heading {
     font-size: 40px;
   }
 }
@@ -339,5 +520,33 @@
 
   .section-heading {
     font-size: 36px;
+  }
+
+  .ems {
+    padding: 50px 20px;
+  }
+
+  .ems-inner {
+    flex-direction: column;
+  }
+
+  .ems-heading {
+    font-size: 36px;
+  }
+
+  .ems-image {
+    width: 100%;
+  }
+
+  .cta {
+    padding: 50px 20px;
+  }
+
+  .cta-heading {
+    font-size: 36px;
+  }
+
+  .cta-image {
+    width: 100%;
   }
 }
