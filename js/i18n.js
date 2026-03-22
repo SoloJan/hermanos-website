@@ -34,7 +34,8 @@ const I18n = (() => {
     if (!SUPPORTED.includes(lang)) lang = DEFAULT_LANG;
 
     try {
-      const response = await fetch(`locales/${lang}.json`);
+      const base = window.__BASE__ || '';
+      const response = await fetch(`${base}locales/${lang}.json`);
       if (!response.ok) throw new Error(`Could not load ${lang}.json`);
       translations = await response.json();
       currentLang = lang;
