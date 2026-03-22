@@ -1,0 +1,26 @@
+{
+  "name": "hermanos-website",
+  "version": "1.0.0",
+  "description": "A static website representing www.hermanosenergy.com",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoloJan/hermanos-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoloJan/hermanos-website/issues"
+  },
+  "homepage": "https://github.com/SoloJan/hermanos-website#readme",
+  "dependencies": {
+    "astro": "^6.0.8"
+  },
+  "type": "module"
+}
