@@ -1,0 +1,10 @@
+/* =============================================================
+   POWER TO HEAT PAGE
+   ============================================================= */
+
+@import url('power-to-x-shared.css');
+
+/* Page-specific: yellow/warm background for benefits */
+.p2x-benefits {
+  background-color: var(--color-bg-yellow);
+}

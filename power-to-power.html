@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Power to Power — Hermanos Energy</title>
+  <meta name="description" content="Generate green electricity all year round from locally stored hydrogen. Power to Power by Hermanos Energy." />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/pages/power-to-power.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════
+       HEADER
+  ══════════════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+
+        <a href="/" class="header-logo" aria-label="Hermanos Energy - Home">
+          <img src="assets/images/Hermanos-Logo-Green.svg" alt="Hermanos Energy" />
+        </a>
+
+        <nav class="header-nav" aria-label="Main navigation">
+          <a href="product.html" data-i18n="nav.product" class="active">Product</a>
+          <a href="aboutus.html" data-i18n="nav.about">About Us</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
+
+          <div class="lang-switcher" aria-label="Language">
+            <button data-lang-btn="en" onclick="I18n.switch('en')">EN</button>
+            <span class="lang-switcher-divider" aria-hidden="true"></span>
+            <button data-lang-btn="nl" onclick="I18n.switch('nl')">NL</button>
+          </div>
+
+          <a href="https://www.hermanos.energy/" target="_blank" rel="noopener" class="btn-sign-in" data-i18n="nav.sign_in">Sign in</a>
+        </nav>
+
+        <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+      <a href="product.html" data-i18n="nav.product">Product</a>
+      <a href="aboutus.html" data-i18n="nav.about">About Us</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
+      <a href="https://www.hermanos.energy/" target="_blank" rel="noopener" class="btn-sign-in" data-i18n="nav.sign_in" style="align-self:flex-start; margin-top: var(--space-2);">Sign in</a>
+
+      <div class="lang-switcher" aria-label="Language">
+        <button data-lang-btn="en" onclick="I18n.switch('en')">EN</button>
+        <span class="lang-switcher-divider" aria-hidden="true"></span>
+        <button data-lang-btn="nl" onclick="I18n.switch('nl')">NL</button>
+      </div>
+    </nav>
+  </header>
+
+
+  <main class="page-content">
+
+    <!-- ══════════════════════════════════════════════
+         HERO
+    ══════════════════════════════════════════════ -->
+    <section class="p2x-hero">
+      <div class="p2x-hero-bg">
+        <img src="assets/images/hero-background.avif" alt="" />
+      </div>
+      <div class="p2x-hero-content">
+        <div class="p2x-hero-icon">
+          <img src="assets/images/icon-power-to-power.svg" alt="" />
+        </div>
+        <p class="p2x-hero-label" data-i18n="p2p.hero.label">Power to Power</p>
+        <h1 class="p2x-hero-title" data-i18n="p2p.hero.title">All year round green electricity.</h1>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════
+         INTRO
+    ══════════════════════════════════════════════ -->
+    <section class="p2x-intro">
+      <div class="p2x-intro-inner">
+
+        <div class="p2x-intro-text">
+          <p class="p2x-label" data-i18n="p2p.intro.label">How it works</p>
+          <h2 class="p2x-heading" data-i18n="p2p.intro.title">Green electricity whenever you need it.</h2>
+          <p class="p2x-body" data-i18n="p2p.intro.body">With Power to Power, surplus electricity from your solar panels is converted into hydrogen via electrolysis. When the sun isn't shining, a fuel cell converts that stored hydrogen back into electricity — giving you a reliable, grid-independent power supply 24 hours a day, all year round.</p>
+          <p class="p2x-body" data-i18n="p2p.intro.body2">Unlike batteries, our hydrogen storage can hold energy for months, not hours. This makes Power to Power ideal for homes, farms, and businesses that want true energy independence.</p>
+        </div>
+
+        <div class="p2x-intro-image">
+          <img src="assets/images/bg-gradient-2.avif" alt="Power to Power system diagram" />
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════
+         BENEFITS
+    ══════════════════════════════════════════════ -->
+    <section class="p2x-benefits">
+      <div class="p2x-benefits-inner">
+        <h2 class="p2x-benefits-heading" data-i18n="p2p.benefits.title">Why Power to Power?</h2>
+        <div class="p2x-benefits-grid">
+
+          <div class="p2x-benefit-card">
+            <div class="p2x-benefit-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm49.5,85.8-58.6,56a8.1,8.1,0,0,1-5.6,2.2,7.7,7.7,0,0,1-5.5-2.2l-29.3-28a8,8,0,1,1,11-11.6l23.8,22.7,53.2-50.7a8,8,0,0,1,11,11.6Z"/></svg>
+            </div>
+            <h3 class="p2x-benefit-title" data-i18n="p2p.benefits.b1.title">Long-duration storage</h3>
+            <p class="p2x-benefit-body" data-i18n="p2p.benefits.b1.body">Store weeks or months of energy as hydrogen — far beyond what any battery system can offer.</p>
+          </div>
+
+          <div class="p2x-benefit-card">
+            <div class="p2x-benefit-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm49.5,85.8-58.6,56a8.1,8.1,0,0,1-5.6,2.2,7.7,7.7,0,0,1-5.5-2.2l-29.3-28a8,8,0,1,1,11-11.6l23.8,22.7,53.2-50.7a8,8,0,0,1,11,11.6Z"/></svg>
+            </div>
+            <h3 class="p2x-benefit-title" data-i18n="p2p.benefits.b2.title">Grid independence</h3>
+            <p class="p2x-benefit-body" data-i18n="p2p.benefits.b2.body">Reduce or eliminate your reliance on the electricity grid. Generate, store, and use your own clean energy.</p>
+          </div>
+
+          <div class="p2x-benefit-card">
+            <div class="p2x-benefit-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.2,104.2,0,0,0,128,24Zm49.5,85.8-58.6,56a8.1,8.1,0,0,1-5.6,2.2,7.7,7.7,0,0,1-5.5-2.2l-29.3-28a8,8,0,1,1,11-11.6l23.8,22.7,53.2-50.7a8,8,0,0,1,11,11.6Z"/></svg>
+            </div>
+            <h3 class="p2x-benefit-title" data-i18n="p2p.benefits.b3.title">Price arbitrage</h3>
+            <p class="p2x-benefit-body" data-i18n="p2p.benefits.b3.body">Our EMS picks the best moments to produce hydrogen based on day-ahead electricity prices, maximising your return.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════
+         OTHER PRODUCTS
+    ══════════════════════════════════════════════ -->
+    <section class="p2x-other">
+      <div class="p2x-other-inner">
+        <h2 class="p2x-other-heading" data-i18n="p2p.other.title">Explore our other products</h2>
+        <div class="p2x-other-cards">
+          <a href="power-to-heat.html" class="p2x-other-card">
+            <img src="assets/images/icon-power-to-heat.svg" alt="" />
+            <span data-i18n="nav.power_to_heat">Power to Heat</span>
+          </a>
+          <a href="power-to-drive.html" class="p2x-other-card">
+            <img src="assets/images/icon-power-to-drive.svg" alt="" />
+            <span data-i18n="nav.power_to_drive">Power to Drive</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════
+         CTA
+    ══════════════════════════════════════════════ -->
+    <section class="p2x-cta">
+      <div class="p2x-cta-inner">
+        <div class="p2x-cta-content">
+          <p class="p2x-cta-label">Book a demo, or ask for custom energy advice</p>
+          <h2 class="p2x-cta-heading">Get in touch.</h2>
+          <a href="contact.html" class="p2x-btn-contact">Contact us</a>
+        </div>
+        <div class="p2x-cta-image">
+          <img src="assets/images/cta-preview.avif" alt="Website examples" />
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a href="/" class="footer-logo" aria-label="Hermanos Energy - Home">
+        <img src="assets/images/Hermanos-Logo-Green.svg" alt="Hermanos Energy" />
+      </a>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="product.html" data-i18n="nav.product">Product</a>
+        <a href="aboutus.html" data-i18n="nav.about">About Us</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
+      </nav>
+      <div class="footer-address">
+        <p data-i18n-html="footer.address">Address: Transistorstraat 151, 1322 CN Almere<br>Kvk nummer 91848946</p>
+        <p data-i18n="footer.copyright">Hermanos Energy 2025 © All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
