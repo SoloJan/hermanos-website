@@ -91,22 +91,27 @@
       "title": "Pionieren in de waterstofrevolutie.",
       "subtitle": "TODO: translate"
     },
-    "efro": {
-      "label": "EFRO-subsidie",
-      "body": "Wij zijn trots te kunnen aankondigen dat we een Europese subsidie hebben ontvangen via het EFRO-programma Kansen voor West III voor ons innovatieprogramma Power2You. Deze bijdrage stelt ons als bedrijf in staat te groeien en zorgt ervoor dat we de komende twee jaar tijd en energie kunnen blijven investeren in technische innovatie. Het is ook een waardevolle erkenning van de maatschappelijke impact die we maken."
-    },
     "story": {
-      "label": "Ons verhaal",
-      "title": "Twee broers. Één missie.",
-      "para1": "Hermanos Energy is geboren uit de gedeelde visie van twee broers, aangedreven niet alleen door de zoektocht naar groene energie, maar ook door de kracht van broederschap. Onze dromen reiken verder dan een verschuiving in energiebronnen. Wij dromen van een toekomst waar energie wordt gedeeld tussen broers, vrienden en buren, een toekomst waarin multinationals en buitenlandse regimes geen vat hebben op deze kostbare hulpbron, want die behoort aan ons allemaal toe. Wij geloven sterk dat de energietransitie gedragen moet worden door lokale initiatieven, die gemeenschappen versterken en velen ten goede komen, in plaats van de belangen van een enkeling te dienen.",
-      "para2": "Het is niet langer een kwestie van of en wanneer; het gebeurt nu, en de enige vraag is hoe snel we kunnen gaan.",
-      "para3": "Net zoals boeren al lang hun land bebouwen, gewassen koesteren gedurende de zomer en de oogst binnenhalen voor de komende winter, wil Hermanos Energy dit eeuwenoude principe toepassen op onze moderne wereld. Met behulp van innovatieve technieken streven wij naar een toekomst die voldoet aan onze veranderende behoeften."
+      "label": "OUR STORY",
+      "title": "TODO: translate",
+      "p1": "TODO: translate",
+      "p2": "TODO: translate",
+      "p3": "TODO: translate",
+      "p4": "TODO: translate"
+    },
+    "efro": {
+      "label": "Co-financed by the European Union",
+      "title": "Power2You",
+      "body": "TODO: translate",
+      "goals_intro": "TODO: translate",
+      "g1": "TODO: translate",
+      "g2": "TODO: translate",
+      "g3": "TODO: translate",
+      "g4": "TODO: translate"
     },
     "mission": {
       "label": "Onze missie",
-      "title": "Fossiele brandstoffen vervangen door lokale groene waterstof.",
-      "para1": "De missie van Hermanos Energy is om lokale gebruikers het hele jaar door in controle te laten zijn over hun groene, stabiele energievoorziening. In een wereld waar lokale gebruikers altijd over groene energie beschikken, is er geen behoefte aan en geen plaats voor fossiele brandstoffen.",
-      "para2": "De energietransitie is in volle gang. Het nieuwe groene tijdperk brengt zijn eigen uitdagingen mee. Er is genoeg zonne- en windenergie, zoveel zelfs dat het soms wordt afgeschaald, maar we zijn nog steeds afhankelijk van fossiele brandstoffen voor nachten en winters. Het is onze missie om die uitdaging te overwinnen. We streven naar een wereld waar de energie van de zomerzon wordt benut, de warmte ervan wordt opgeslagen om uw huis knus te houden in de koude winter en uw kamers te verlichten wanneer het donker wordt."
+      "body": "TODO: translate"
     },
     "cta": {
       "label": "Boek een demo, of vraag om persoonlijk energieadvies",
