@@ -21,26 +21,22 @@
   },
   "contact": {
     "hero": {
-      "label": "Boek een demo, of vraag om persoonlijk energieadvies",
-      "title": "Neem contact op."
-    },
-    "description": "TODO: translate",
-    "info": {
-      "address_label": "Adres",
-      "email_label": "E-mail",
-      "kvk_label": "KvK-nummer"
+      "label": "contact us",
+      "title": "Get in touch",
+      "description": "TODO: translate"
     },
     "form": {
       "name": "Naam",
       "email": "E-mail",
-      "phone": "Telefoon",
-      "company": "Bedrijf",
-      "subject": "Onderwerp",
       "message": "Bericht",
       "submit": "Verstuur bericht"
     },
+    "address": {
+      "city": "Almere",
+      "street": "Transistorstraat 151\n1322 CN Almere\nThe Netherlands"
+    },
     "connect": {
-      "title": "Verbind met ons",
+      "label": "CONNECT WITH US",
       "linkedin": "Hermanos Energy op LinkedIn"
     }
   },
@@ -157,71 +153,83 @@
     }
   },
   "product_page": {
-    "hero": {
-      "label": "Product",
-      "title": "TODO: translate"
-    },
-    "intro": {
-      "label": "Het systeem",
-      "title": "Groene waterstof, lokaal geproduceerd.",
-      "body": "TODO: translate",
-      "body2": "TODO: translate",
-      "body3": "TODO: translate"
-    },
-    "notice": "TODO: translate",
-    "notice_cta": "Contacteer ons",
     "three": {
       "title": "Onze drie producten.",
+      "subtitle": "De energieopslagoplossing voor lokale opslag bij boerderijen en kleine en middelgrote bedrijven.",
       "heat": {
+        "label": "Verwarmen met lokaal geproduceerde waterstof",
         "title": "Power to Heat",
-        "body": "Gebruik uw zomerse zonne-energie om in de winter te verwarmen."
+        "f1": "Seizoensgebonden warmteopslag",
+        "f2": "Kan hoge temperaturen bereiken",
+        "f3": "Kan gas vervangen of worden gemengd met gas",
+        "f4": "Bijna geen energieverlies"
       },
       "drive": {
+        "label": "Rijden op uw eigen waterstof",
         "title": "Power to Drive",
-        "body": "Rijden op waterstof. Met power to drive."
+        "f1": "Produceer uw eigen brandstof",
+        "f2": "50% goedkoper dan diesel",
+        "f3": "€3/kg waterstof",
+        "f4": "Eenvoudig tanken"
       },
       "power": {
+        "label": "Het hele jaar door groene elektriciteit",
         "title": "Power to Power",
-        "body": "Het hele jaar door groene elektriciteit met power to power."
+        "f1": "Dag- en nachtopslag",
+        "f2": "Seizoensgebonden elektriciteitsopslag",
+        "f3": "Gekoppeld aan de day-ahead markt",
+        "f4": "Netcongestie overwinnen"
       }
     },
+    "body": {
+      "p1": "De productie van groene elektriciteit neemt snel toe, maar de opbrengst is variabel. Daarom is de bottleneck niet langer de productie, maar de opslag van elektriciteit. Om een buffer te creëren die productie en verbruik in balans houdt, is opslag cruciaal.",
+      "p2": "Zoals eigenaren van zonnepanelen hebben ervaren, was er tot nu toe geen goede en betaalbare oplossing voor het opslagprobleem. Wij bieden energieopslagoplossingen voor agrarische bedrijven en andere kleine en middelgrote ondernemingen.",
+      "p3": "Wij maken en slaan waterstof lokaal op. Onze software monitort energieprijzen, maar ook uw eigen energieverbruik en elektriciteitsproductie. Zo kunt u het gebruik van uw groene elektriciteit optimaliseren door deze tijdens piekproductie om te zetten in waterstof.",
+      "p4": "Vaak produceren we waterstof wanneer energie gratis is of wanneer de elektriciteitsprijzen negatief zijn. Daardoor is onze waterstof altijd groen en erg betaalbaar. U kunt het gebruiken als vervanging van aardgas, als brandstof voor een voertuig, of het opslaan en terugzetten in elektriciteit wanneer u dat nodig heeft.",
+      "p5": "Wat uw keuze ook is, wij leveren een plug-and-play installatie die de volledige cyclus dekt: lokaal geproduceerd, lokaal opgeslagen en lokaal gebruikt. Alles volledig geautomatiseerd."
+    },
+    "seamless": {
+      "title": "Naadloze energieoplossingen, op maat voor u",
+      "subtitle": "Elke energieuitdaging is uniek, en zo is ook de aanpak om deze op te lossen. Ons gestructureerde maar flexibele proces zorgt voor een soepele overgang naar schone energie, van het begrijpen van uw behoeften tot het leveren van een op maat gemaakte oplossing."
+    },
+    "notice": "Vanwege de grote vraag werken we met bouwslots. We zijn volledig volgeboekt voor 2025, neem contact op om de mogelijkheden voor 2026 te bespreken en een slot te reserveren.",
+    "notice_cta": "Contacteer ons",
     "features": {
-      "title": "Belangrijkste functies.",
-      "f1": "Het hele jaar door groene elektriciteit",
-      "f2": "Seizoensgebonden elektriciteitsopslag",
-      "f3": "Seizoensgebonden warmteopslag",
-      "f4": "Dag- en nachtopslag",
-      "f5": "Warmtebeheer",
-      "f6": "Verwarmen met lokaal geproduceerde waterstof",
-      "f7": "Rijden op uw eigen waterstof",
-      "f8": "Eenvoudig tanken",
-      "f9": "Produceer uw eigen brandstof",
-      "f10": "Lokale opslag",
-      "f11": "Netcongestie overwinnen",
-      "f12": "Gekoppeld aan de day-ahead markt",
-      "f13": "Bijna geen energieverlies",
-      "f14": "Kan hoge temperaturen bereiken",
-      "f15": "Kan gas vervangen of worden gemengd met gas",
-      "f16": "Batterij inbegrepen",
-      "f17": "Gepersonaliseerd slim energiebeheer",
-      "f18": "Goed voor winst en milieu"
+      "label": "Belangrijkste functies",
+      "title": "Dit hebben al onze producten gemeen.",
+      "c1": {
+        "title": "Gepersonaliseerd slim energiebeheer",
+        "body": "Het hele jaar door monitort de software continu de energieprijzen, beschikbaarheid van groene energie, weersvoorspellingen en uw specifieke omstandigheden. Het benut deze gegevens om de prestaties van het systeem te optimaliseren voor uw behoeften."
+      },
+      "c2": {
+        "title": "Batterij inbegrepen",
+        "body": "Wij gebruiken een batterij als kortetermijnbuffer voor elektriciteit. Hierdoor kunnen we in seconden reageren. En als de zon is ondergegaan, kan uw elektrolyser blijven draaien op de groene energie die is opgeslagen in de batterij."
+      },
+      "c3": {
+        "title": "Lokale opslag",
+        "body": "De waterstof die door de elektrolyser wordt geproduceerd, wordt opgeslagen in gasbundels op 35 bar. Als u onze compressor toevoegt, kan het op maximaal 300 bar worden opgeslagen, waardoor bijna tien keer zoveel energie in dezelfde tanks kan worden opgeslagen."
+      },
+      "c4": {
+        "title": "Warmtebeheer",
+        "body": "Bij het omzetten tussen elektriciteit en waterstof komt warmte vrij. Deze warmte wordt vaak beschouwd als 'energieverlies'. In ons systeem wordt de vrijgekomen warmte teruggewonnen en opgeslagen om warm water van ongeveer 55 °C te leveren aan uw woning of bedrijf."
+      }
     },
     "faq": {
-      "title": "Veelgestelde vragen.",
+      "label": "FAQ",
+      "title": "Vragen?",
       "q1": "Is het omzetten van elektriciteit naar waterstof een efficiënt proces?",
-      "a1": "Dit wordt vaak gezien als een inefficiënt proces, maar het 'verlies' van energie is voornamelijk warmte. In ons systeem wordt deze warmte teruggewonnen en gebruikt.",
-      "q2": "Kan ik de waterstof gebruiken om mijn aardgasverbruik te vervangen?",
-      "a2": "TODO: translate",
+      "a1": "Dit wordt vaak gezien als een inefficiënt proces, maar het 'verlies' van energie is voornamelijk warmte. In de oplossing van Hermanos Energy wordt de afvalwarmte opgeslagen en gebruikt, bijvoorbeeld voor uw dagelijkse warme douches of verwarming in de winter. Door gebruik te maken van warmte en elektriciteit is er niet veel energieverlies.",
+      "q2": "Is energie opslaan met waterstof beter dan een batterij?",
+      "a2": "Waterstof is niet per se een betere manier om energie op te slaan dan een batterij, maar het heeft wel andere eigenschappen. Batterijopslag is een zeer goede oplossing voor kortetermijnopslag, bijvoorbeeld voor het gebruik van zonne-energie 's nachts in de zomer. Waterstof is een van de meest kostenefficiënte methoden voor seizoensopslag en kan worden gebruikt om uw huis te verwarmen. Hermanos Energy biedt een combinatie van waterstofopslag, warmteopslag en batterijopslag.",
       "q3": "Is waterstofopslag een veilige oplossing?",
       "a3": "TODO: translate",
-      "q4": "Is energie opslaan met waterstof beter dan een batterij?",
-      "a4": "TODO: translate",
-      "q5": "Waar wordt de waterstof opgeslagen?",
+      "q4": "Waar wordt de waterstof opgeslagen?",
+      "a4": "De waterstof die door de elektrolyser wordt geproduceerd, wordt opgeslagen in gasbundels op 35 bar. Als u onze compressor toevoegt, kan het op maximaal 300 bar worden opgeslagen, waardoor bijna tien keer zoveel energie in dezelfde tanks kan worden opgeslagen.",
+      "q5": "Kan ik de waterstof gebruiken om mijn aardgasverbruik te vervangen?",
       "a5": "TODO: translate"
     },
     "cta": {
-      "label": "Boek een demo, of vraag om persoonlijk energieadvies",
-      "title": "Neem contact op.",
+      "body": "In 2030 zal 90% van de jaarlijkse energievraag in Nederland afkomstig zijn van hernieuwbare energiebronnen, maar om het elektriciteitsnet in balans te houden en een stabiele stroomvoorziening te garanderen, is nog 30% extra energie uit fossiele brandstoffen nodig. Dit veroorzaakt 9.000.000.000 in CO2-uitstoot.",
       "button": "Contacteer ons"
     }
   },

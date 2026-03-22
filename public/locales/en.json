@@ -21,26 +21,22 @@
   },
   "contact": {
     "hero": {
-      "label": "Book a demo, or ask for custom energy advice",
-      "title": "Get in touch."
-    },
-    "description": "If you're interested in the product, or want to learn more feel free to contact us for a demo. If you want to know if the product is for you then we will start by doing a detailed calculation of which hardware solution fits with your energy setup at home.",
-    "info": {
-      "address_label": "Address",
-      "email_label": "Email",
-      "kvk_label": "KvK number"
+      "label": "contact us",
+      "title": "Get in touch",
+      "description": "If your interested in the product, or want to learn more feel free to contact us for a demo. If you want to know if the product is for you then we will start by doing a detailed calculation of which hardware solution fits with your energy setup at home."
     },
     "form": {
       "name": "Name",
       "email": "Email",
-      "phone": "Phone",
-      "company": "Company",
-      "subject": "Subject",
       "message": "Message",
       "submit": "Send Message"
     },
+    "address": {
+      "city": "Almere",
+      "street": "Transistorstraat 151\n1322 CN Almere\nThe Netherlands"
+    },
     "connect": {
-      "title": "Connect With Us",
+      "label": "CONNECT WITH US",
       "linkedin": "Hermanos Energy on LinkedIn"
     }
   },
@@ -157,71 +153,83 @@
     }
   },
   "product_page": {
-    "hero": {
-      "label": "Product",
-      "title": "Seamless energy solutions, tailored to you"
+    "three": {
+      "title": "Our three products.",
+      "subtitle": "The energy storage solution for local storage at farms and small and midsize companies.",
+      "heat": {
+        "label": "Heating with locally produced hydrogen",
+        "title": "Power to Heat",
+        "f1": "Seasonal heat storage",
+        "f2": "Can reach high temperatures",
+        "f3": "Can replace or be mixed with gas",
+        "f4": "Almost no energy loss"
+      },
+      "drive": {
+        "label": "Driving a vehicle on your own hydrogen",
+        "title": "Power to Drive",
+        "f1": "Produce your own fuel",
+        "f2": "50% cheaper than diesel",
+        "f3": "€3/kg hydrogen",
+        "f4": "Easy refuelling"
+      },
+      "power": {
+        "label": "A year round green electricity",
+        "title": "Power to Power",
+        "f1": "Day & night electricity storage",
+        "f2": "Seasonal electricity storage",
+        "f3": "Linked to day-ahead market",
+        "f4": "Overcoming grid congestion"
+      }
     },
-    "intro": {
-      "label": "The system",
-      "title": "Green hydrogen, produced locally.",
-      "body": "The production of green electricity is rapidly increasing, but the yield is variable. Therefore, the bottleneck is no longer production but rather the storage of electricity. To create a buffer that balances production and consumption, storage is crucial.",
-      "body2": "We create and store hydrogen locally. Our software monitors grid prices, as well as your own energy consumption and electricity production. This allows you to optimize the use of your green electricity by converting it to hydrogen during peak production times.",
-      "body3": "We often produce hydrogen when energy is free or when electricity prices are negative. That's why our hydrogen is always green and very affordable. You can use it as a replacement for natural gas in any heating application, as fuel for a vehicle, or store it and convert it back into electricity when needed."
+    "body": {
+      "p1": "The production of green electricity is rapidly increasing, but the yield is variable. Therefore, the bottleneck is no longer production but rather the storage of electricity. To create a buffer that balances production and consumption, storage is crucial.",
+      "p2": "As owners of solar panels have experienced, there has been no good and affordable solution for the storage problem until now. We offer energy storage solutions for agricultural businesses, and other small and medium-sized enterprises.",
+      "p3": "We create and store hydrogen locally. Our software monitors grid prices, as well as your own energy consumption and electricity production. This allows you to optimize the use of your green electricity by converting it to hydrogen during peak production times.",
+      "p4": "We often produce hydrogen when energy is free or when electricity prices are negative. That's why our hydrogen is always green and very affordable. You can use it as a replacement for natural gas in any heating application, as fuel for a vehicle, or store it and convert it back into electricity when needed.",
+      "p5": "Whatever your choice, we provide a plug-and-play installation that covers the full cycle: locally produced, locally stored, and locally used. Everything is fully automated."
+    },
+    "seamless": {
+      "title": "Seamless energy solutions, tailored to you",
+      "subtitle": "Every energy challenge is unique, and so is the approach to solving it. Our structured yet flexible process ensures a smooth transition to clean energy, from understanding your needs to delivering a customized solution. Explore the timeline below to see how we turn your energy goals into reality."
     },
     "notice": "Due to high demand, we are working with building slots. We are fully booked for 2025, contact us to discuss possibilities for 2026 and to reserve a slot.",
     "notice_cta": "Contact us",
-    "three": {
-      "title": "Our three products.",
-      "heat": {
-        "title": "Power to Heat",
-        "body": "Using your summer sun to heat in the winter, with power to heat."
+    "features": {
+      "label": "Key features",
+      "title": "This is what all our products have in common.",
+      "c1": {
+        "title": "Personalised smart energy management",
+        "body": "Throughout the year, the software continuously monitors grid prices, availability of green energy, weather predictions, and your specific circumstances. It leverages these inputs to optimize the system's performance for your needs."
       },
-      "drive": {
-        "title": "Power to Drive",
-        "body": "Driving a vehicle on hydrogen. With power to drive."
+      "c2": {
+        "title": "Battery included",
+        "body": "We use a battery as a short term buffer for electricity. It allows us to react in seconds. And when the sun has gone your electrolyzer can keep on running on the green energy stored in the battery."
       },
-      "power": {
-        "title": "Power to Power",
-        "body": "All year round green electricity with power to power."
+      "c3": {
+        "title": "Local storage",
+        "body": "The hydrogen produced by the electrolyzer is stored in gas bundles at 35 bar. If you add our compressor, it can be stored at up to 300 bar, allowing almost ten times as much energy to be stored in the same tanks."
+      },
+      "c4": {
+        "title": "Managing heat",
+        "body": "When converting between electricity and hydrogen, heat is released. This heat is often considered as 'energy loss.' In our system, the released heat is recovered and stored to deliver hot water at around 55 °C to your home or business."
       }
     },
-    "features": {
-      "title": "Key features.",
-      "f1": "A year round green electricity",
-      "f2": "Seasonal electricity storage",
-      "f3": "Seasonal heat storage",
-      "f4": "Day & night electricity storage",
-      "f5": "Managing heat",
-      "f6": "Heating with locally produced hydrogen",
-      "f7": "Driving a vehicle on your own hydrogen",
-      "f8": "Easy refuelling",
-      "f9": "Produce your own fuel",
-      "f10": "Local storage",
-      "f11": "Overcoming grid congestion",
-      "f12": "Linked to day-ahead market",
-      "f13": "Almost no energy loss",
-      "f14": "Can reach high temperatures",
-      "f15": "Can replace or be mixed with gas",
-      "f16": "Battery included",
-      "f17": "Personalised smart energy management",
-      "f18": "Good for profit and environment"
-    },
     "faq": {
-      "title": "Frequently asked questions.",
+      "label": "FAQ",
+      "title": "Got questions?",
       "q1": "Is converting electricity into hydrogen an efficient process?",
-      "a1": "Often this is seen as an inefficient process, but the 'loss' of energy is mostly heat. In our system this heat is recovered and used.",
-      "q2": "Can I use the hydrogen to replace my natural gas needs?",
-      "a2": "TODO: answer coming soon.",
+      "a1": "Often this is seen as an inefficient process, but the 'loss' of energy is mostly heat. In the solution of Hermanos Energy, the waste heat is stored and used, for example for your daily warm showers or heating in the winter. By using heat and electricity there is not much energy loss.",
+      "q2": "Is storing energy with hydrogen better than a battery?",
+      "a2": "Hydrogen is not per se a better way of storing energy than a battery, but it has some different characteristics. Battery storage is a very good solution for short-term storage for example using your solar energy during the night in the summer. Hydrogen is one of the most cost-efficient methods to do seasonal storage and it can be used to heat your house. Hermanos Energy is offering a combination of hydrogen storage, thermal storage, and battery storage to make sure you can use the full-year green energy.",
       "q3": "Is hydrogen storage a safe solution?",
       "a3": "TODO: answer coming soon.",
-      "q4": "Is storing energy with hydrogen better than a battery?",
-      "a4": "TODO: answer coming soon.",
-      "q5": "Where is the hydrogen stored?",
+      "q4": "Where is the hydrogen stored?",
+      "a4": "The hydrogen produced by the electrolyzer is stored in gas bundles at 35 bar. If you add our compressor, it can be stored at up to 300 bar, allowing almost ten times as much energy to be stored in the same tanks.",
+      "q5": "Can I use the hydrogen to replace my natural gas needs?",
       "a5": "TODO: answer coming soon."
     },
     "cta": {
-      "label": "Book a demo, or ask for custom energy advice",
-      "title": "Get in touch.",
+      "body": "In 2030 90% of the annual energy demand in the Netherlands will be from renewable energy sources but to balance the energy grid and secure a stable power supply, 30% additional energy from fossil fuel is required. This is causing 9.000.000.000 in CO2 emissions.",
       "button": "Contact us"
     }
   },
