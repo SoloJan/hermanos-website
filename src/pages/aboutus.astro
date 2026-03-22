@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout
+  title="About Us — Hermanos Energy"
+  description="Pioneering the hydrogen revolution. We are dedicated to providing cutting-edge solutions for energy storage using hydrogen technology."
+  pageCSS="aboutus.css"
+  activeNav="about"
+>
+
+  <!-- ══════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════ -->
+  <section class="au-hero">
+    <div class="container">
+      <div class="au-hero-text">
+        <p class="au-hero-label" data-i18n="aboutus.hero.label">about us</p>
+        <h1 class="au-hero-title" data-i18n="aboutus.hero.title">Pioneering the hydrogen revolution.</h1>
+        <p class="au-hero-subtitle" data-i18n="aboutus.hero.subtitle">We are at the forefront of the energy revolution, committed to delivering sustainable and efficient energy solutions through hydrogen-based energy storage.</p>
+      </div>
+      <div class="au-hero-photo">
+        <img
+          src={`${base}assets/images/aboutus/founders.avif`}
+          alt="Maarten and Jan Hermanos Energy Founders"
+        />
+      </div>
+    </div>
+  </section>
+
+</Layout>
